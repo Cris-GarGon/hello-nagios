@@ -1,0 +1,54 @@
+[1613559735] Nagios 4.4.6 starting... (PID=20)
+[1613559735] Local time is Wed Feb 17 11:02:15 UTC 2021
+[1613559735] LOG VERSION: 2.0
+[1613559735] qh: Socket '/opt/nagios/var/rw/nagios.qh' successfully initialized
+[1613559735] qh: core query handler registered
+[1613559735] qh: echo service query handler registered
+[1613559735] qh: help for the query handler registered
+[1613559735] wproc: Successfully registered manager as @wproc with query handler
+[1613559735] wproc: Registry request: name=Core Worker 47;pid=47
+[1613559735] wproc: Registry request: name=Core Worker 46;pid=46
+[1613559735] wproc: Registry request: name=Core Worker 45;pid=45
+[1613559735] wproc: Registry request: name=Core Worker 44;pid=44
+[1613559735] Successfully launched command file worker with pid 53
+[1613559847] SERVICE ALERT: localhost;HTTP;WARNING;SOFT;1;HTTP WARNING: HTTP/1.1 401 Unauthorized - 691 bytes in 0.001 second response time
+[1613559907] SERVICE ALERT: localhost;HTTP;WARNING;SOFT;2;HTTP WARNING: HTTP/1.1 401 Unauthorized - 691 bytes in 0.001 second response time
+[1613559960] SERVICE ALERT: localhost;SSH;CRITICAL;SOFT;1;connect to address 127.0.0.1 and port 22: Connection refused
+[1613559967] SERVICE ALERT: localhost;HTTP;WARNING;SOFT;3;HTTP WARNING: HTTP/1.1 401 Unauthorized - 691 bytes in 0.001 second response time
+[1613559997] SERVICE ALERT: localhost;Swap Usage;CRITICAL;SOFT;1;SWAP CRITICAL - 0% free (0 MB out of 0 MB) - Swap is either disabled, not present, or of zero size.
+[1613560020] SERVICE ALERT: localhost;SSH;CRITICAL;SOFT;2;connect to address 127.0.0.1 and port 22: Connection refused
+[1613560027] SERVICE ALERT: localhost;HTTP;WARNING;HARD;4;HTTP WARNING: HTTP/1.1 401 Unauthorized - 691 bytes in 0.000 second response time
+[1613560057] SERVICE ALERT: localhost;Swap Usage;CRITICAL;SOFT;2;SWAP CRITICAL - 0% free (0 MB out of 0 MB) - Swap is either disabled, not present, or of zero size.
+[1613560080] SERVICE ALERT: localhost;SSH;CRITICAL;SOFT;3;connect to address 127.0.0.1 and port 22: Connection refused
+[1613560117] SERVICE ALERT: localhost;Swap Usage;CRITICAL;SOFT;3;SWAP CRITICAL - 0% free (0 MB out of 0 MB) - Swap is either disabled, not present, or of zero size.
+[1613560140] SERVICE ALERT: localhost;SSH;CRITICAL;HARD;4;connect to address 127.0.0.1 and port 22: Connection refused
+[1613560177] SERVICE NOTIFICATION: nagiosadmin;localhost;Swap Usage;CRITICAL;notify-service-by-email;SWAP CRITICAL - 0% free (0 MB out of 0 MB) - Swap is either disabled, not present, or of zero size.
+[1613560177] SERVICE ALERT: localhost;Swap Usage;CRITICAL;HARD;4;SWAP CRITICAL - 0% free (0 MB out of 0 MB) - Swap is either disabled, not present, or of zero size.
+[1613560182] wproc: NOTIFY job 5 from worker Core Worker 44 is a non-check helper but exited with return code 1
+[1613560182] wproc:   host=localhost; service=Swap Usage; contact=nagiosadmin
+[1613560182] wproc:   early_timeout=0; exited_ok=1; wait_status=256; error_code=0;
+[1613560182] wproc:   stderr line 01: sendmail: Cannot open mailhub:25
+[1613560522] SERVICE ALERT: localhost;Root Partition;WARNING;SOFT;1;DISK WARNING - free space: / 14376 MiB (19.94% inode=65%):
+[1613560582] SERVICE ALERT: localhost;Root Partition;WARNING;SOFT;2;DISK WARNING - free space: / 14375 MiB (19.94% inode=65%):
+[1613560642] SERVICE ALERT: localhost;Root Partition;WARNING;SOFT;3;DISK WARNING - free space: / 14375 MiB (19.94% inode=65%):
+[1613560702] SERVICE NOTIFICATION: nagiosadmin;localhost;Root Partition;WARNING;notify-service-by-email;DISK WARNING - free space: / 14414 MiB (20.00% inode=65%):
+[1613560702] SERVICE ALERT: localhost;Root Partition;WARNING;HARD;4;DISK WARNING - free space: / 14414 MiB (20.00% inode=65%):
+[1613560707] wproc: NOTIFY job 10 from worker Core Worker 45 is a non-check helper but exited with return code 1
+[1613560707] wproc:   host=localhost; service=Root Partition; contact=nagiosadmin
+[1613560707] wproc:   early_timeout=0; exited_ok=1; wait_status=256; error_code=0;
+[1613560707] wproc:   stderr line 01: sendmail: Cannot open mailhub:25
+[1613560937] Caught SIGTERM, shutting down...
+[1613560937] Successfully shutdown... (PID=20)
+[1613560947] Nagios 4.4.6 starting... (PID=18)
+[1613560947] Local time is Wed Feb 17 11:22:27 UTC 2021
+[1613560947] LOG VERSION: 2.0
+[1613560947] qh: Socket '/opt/nagios/var/rw/nagios.qh' successfully initialized
+[1613560947] qh: core query handler registered
+[1613560947] qh: echo service query handler registered
+[1613560947] qh: help for the query handler registered
+[1613560947] wproc: Successfully registered manager as @wproc with query handler
+[1613560947] wproc: Registry request: name=Core Worker 23;pid=23
+[1613560947] wproc: Registry request: name=Core Worker 24;pid=24
+[1613560947] wproc: Registry request: name=Core Worker 25;pid=25
+[1613560947] wproc: Registry request: name=Core Worker 22;pid=22
+[1613560947] Successfully launched command file worker with pid 27
